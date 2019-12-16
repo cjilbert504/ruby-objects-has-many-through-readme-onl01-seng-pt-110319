@@ -5,5 +5,6 @@ class Meal
     @customer = customer
     @total = total
     @tip = tip
+  end
 
 end
