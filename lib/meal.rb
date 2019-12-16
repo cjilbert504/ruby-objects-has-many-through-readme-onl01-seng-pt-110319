@@ -1,5 +1,7 @@
 class Meal
 
+  attr_accessor :waiter, :customer
+
   @@all = []
 
   def initialize(waiter, customer, total, tip)
